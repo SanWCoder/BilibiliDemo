@@ -1,0 +1,18 @@
+//
+//  SWClassifyLiveModel.m
+//  BilibiliDemo
+//
+//  Created by SanW on 16/8/16.
+//  Copyright © 2016年 SanW. All rights reserved.
+//
+
+#import "SWClassifyLiveModel.h"
+
+@implementation SWClassifyLiveModel
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName
+{
+    return @{@"classifyId":@"id"};
+}
+
+@end
